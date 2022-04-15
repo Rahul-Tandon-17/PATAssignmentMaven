@@ -1,3 +1,0 @@
-[MASTER] 19:27:19.047 [main] ERROR ExternalProcessHandler - Class AVLTree. Clients have not finished yet, although a timeout occurred.
-ClientNode: ASSERTION_GENERATION
-
