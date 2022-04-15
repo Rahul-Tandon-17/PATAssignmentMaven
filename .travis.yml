@@ -3,6 +3,8 @@ jdk:
   - openjdk8
 
 install: true
-before_install: mvn clean install
+script:
+  - mvn clean install
+  - mvn evosuite:generate evosuite:export  test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
