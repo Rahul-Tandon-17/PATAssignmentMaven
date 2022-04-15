@@ -12,5 +12,6 @@ public class ManualTest{
 		obj1.insert(12);
 		obj1.insert(0);
 		obj1.delete(12);
+		org.junit.Assert.assertNotEquals(obj1, null);
 	}
 }
